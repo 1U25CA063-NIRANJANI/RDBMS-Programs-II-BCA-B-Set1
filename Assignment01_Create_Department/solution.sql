@@ -1,7 +1,6 @@
--- Write your SQL here
-
--- Create Database
-
--- Use Database
-
--- Create Department Table
+use collegeDBBCA;
+create table department (
+   department_ID INT PRIMARY KEY,
+   department_Name varchar(100),
+   HOD varchar(100)
+);
