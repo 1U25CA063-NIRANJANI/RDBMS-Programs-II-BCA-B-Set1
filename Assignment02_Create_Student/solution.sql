@@ -1,13 +1,7 @@
--- Create Student table
-
--- StudentID
-
--- StudentName
-
--- DOB
-
--- Gender
-
--- DepartmentID
-
--- Add constraints
+CREATE TABLE Student (
+    StudentID INT(5) PRIMARY KEY,
+    StudentName VARCHAR(20) NOT NULL,
+    DOB DATE,
+    Gender VARCHAR(10),
+    DepartmentID INT(5)
+);
