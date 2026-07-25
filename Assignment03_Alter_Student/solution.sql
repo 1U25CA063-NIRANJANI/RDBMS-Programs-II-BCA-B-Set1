@@ -1,7 +1,5 @@
--- Alter Student table
+ALTER TABLE Student
+ADD Email VARCHAR(30),
+ADD PhoneNumber VARCHAR(10);
 
--- Add Email
-
--- Add PhoneNumber
-
--- Display structure
+DESC Student;
