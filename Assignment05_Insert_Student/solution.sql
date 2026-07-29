@@ -1,7 +1,6 @@
-INSERT INTO Student (StudentID, StudentName, Gender, DepartmentID)
-VALUES 
-    (1001, 'Arun', 'Male', 101),
-    (1002, 'Divya', 'Female', 102),
-    (1003, 'Karthik', 'Male', 101);
-    
-SELECT * FROM Student;
+use collegeDBbca;
+use student;
+INSERT INTO student(studentID,studentName,DOB,gender,departmentID) values (1001,"Arun",31-10-2008,"Male",101);
+INSERT INTO student(studentID,studentName,DOB,gender,departmentID) values (1002,"Divya",28-10-2008,"Female",102);
+INSERT INTO student(studentID,studentName,DOB,gender,departmentID) values (1003,"karthik",02-11-2008,"Male",103);
+SELECT * FROM student
